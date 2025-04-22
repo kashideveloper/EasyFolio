@@ -17,3 +17,29 @@ h1{
 p{
     font-size: 16px;
 }
+
+
+header {
+    background-color: orange;
+    padding: 20px;
+    border-radius: 100px;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.logo span {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.menu a {
+    font-weight: 600;
+    color: #000 !important;
+    
+}
+
+ul.nav i {
+    margin-left: 10px;
+    font-size: 17px;
+    color: #000;
+}
