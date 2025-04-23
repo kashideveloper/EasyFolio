@@ -10,7 +10,7 @@ body{
 }
 
 h1{
-    font-size:3.5rem ;
+    font-size:3rem !important ;
     font-weight: 700;
 }
 
@@ -42,4 +42,79 @@ ul.nav i {
     margin-left: 10px;
     font-size: 17px;
     color: #000;
+}
+
+.banner-buttons{
+    margin-top: 40px;
+}
+.banner-buttons button{
+    background-color: #FFA500;
+    border-radius: 50px;
+    padding: 12px 50px;
+    border: none;
+    margin-right: 10px;
+    
+}
+.banner-buttons button:nth-child(2){
+    background-color: transparent;
+    border:1px solid  #FFA500;
+    color:  #FFA500;
+
+}
+.banner-content{
+    margin-top: 120px;
+}
+.banner-img{
+    margin-top: 120px;
+    position: relative;
+}
+
+.shape1{
+    height: 300px;
+    width: 300px;
+    background-color: #FCEBE0;
+    border-radius: 30% 50% 20% 60%;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    z-index: -1;
+    animation: anima infinite 3s ease-in-out;
+
+}
+.shape2{
+    height: 200px;
+    width: 200px;
+    background-color: #FCEBE0;
+    border-radius: 100px;
+    position: absolute;
+   bottom: 10px;
+   animation: anima infinite 3s ease-in-out;
+    z-index: -1;
+
+}
+
+
+.banner-content h1{
+    color: #0F2943;
+}
+.banner-content span{
+    font-size: 17px;
+}
+
+
+@keyframes anima{
+    0%{ border-radius:  20% 40% 10% 80%;
+
+    }
+    50%{
+        border-radius:  10% 30% 20% 80%;
+
+    }
+    80%{
+        border-radius:  40% 50% 80% 60%;
+    }
+    100%{
+        border-radius:  10% 77% 50% 90%;
+
+    }
 }
